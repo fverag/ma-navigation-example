@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import {
   Footer as NavigationFooter,
   getNavigationConfig,
-} from "@comparaonline/navigation/lib/compara-ui-navigation";
+} from "@comparaonline/navigation";
 
 export function Footer() {
   const [footerData, setFooterData] = useState(null);

@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Menu } from "./Menu";
 import { Footer } from "./Footer";
-import "@comparaonline/navigation/lib/style.css";
+import "@comparaonline/navigation/style.css";
 
 function App() {
   return (

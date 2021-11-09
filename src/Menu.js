@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import {
   Menu as NavigationMenu,
   getNavigationConfig,
-} from "@comparaonline/navigation/lib/compara-ui-navigation";
+} from "@comparaonline/navigation";
 
 export function Menu() {
   const [menuData, setMenuData] = useState(null);
